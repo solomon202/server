@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50962407-20d1-47e7-aa7c-87c4d43c6999" name="Default Changelist" comment="" />
+    <list default="true" id="50962407-20d1-47e7-aa7c-87c4d43c6999" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HttpHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HttpRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HttpResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/serverhttp/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/serverhttp/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/serverhttp/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/serverhttp/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,11 +21,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jnPNV9ww4ukkEvSTBTB3cknddN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +39,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -30,6 +48,11 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -57,7 +80,9 @@
       <updated>1604436842477</updated>
       <workItem from="1604436847117" duration="7287000" />
       <workItem from="1604526021237" duration="7427000" />
-      <workItem from="1604590820296" duration="765000" />
+      <workItem from="1604590820296" duration="10315000" />
+      <workItem from="1605215236255" duration="3129000" />
+      <workItem from="1605296436334" duration="1249000" />
     </task>
     <servers />
   </component>
@@ -69,6 +94,18 @@
       <screen x="0" y="0" width="1024" height="781" />
     </state>
     <state x="-5" y="245" width="686" height="422" key="#com.intellij.debugger.actions.ViewTextAction/0.0.1024.781@0.0.1024.781" timestamp="1604529977391" />
+    <state x="308" y="182" key="#com.intellij.ide.util.MemberChooser" timestamp="1605297635899">
+      <screen x="0" y="0" width="1024" height="781" />
+    </state>
+    <state x="308" y="182" key="#com.intellij.ide.util.MemberChooser/0.0.1024.781@0.0.1024.781" timestamp="1605297635899" />
+    <state x="243" y="171" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1604597723371">
+      <screen x="0" y="0" width="1024" height="781" />
+    </state>
+    <state x="243" y="171" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1024.781@0.0.1024.781" timestamp="1604597723371" />
+    <state x="310" y="275" width="403" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1604597770768">
+      <screen x="0" y="0" width="1024" height="781" />
+    </state>
+    <state x="310" y="275" width="403" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1024.781@0.0.1024.781" timestamp="1604597770768" />
     <state x="243" y="137" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1604439423971">
       <screen x="0" y="0" width="1024" height="781" />
     </state>
@@ -77,26 +114,34 @@
       <screen x="0" y="0" width="1024" height="781" />
     </state>
     <state x="127" y="181" width="863" height="595" key="#xdebugger.evaluate/0.0.1024.781@0.0.1024.781" timestamp="1604529976641" />
+    <state x="275" y="0" key="CommitChangelistDialog2" timestamp="1604598362332">
+      <screen x="0" y="0" width="1024" height="781" />
+    </state>
+    <state x="275" y="0" key="CommitChangelistDialog2/0.0.1024.781@0.0.1024.781" timestamp="1604598362332" />
     <state x="586" y="263" key="FileChooserDialogImpl" timestamp="1604439650738">
       <screen x="0" y="0" width="1024" height="781" />
     </state>
     <state x="586" y="263" key="FileChooserDialogImpl/0.0.1024.781@0.0.1024.781" timestamp="1604439650738" />
-    <state width="980" height="102" key="GridCell.Tab.0.bottom" timestamp="1604533659567">
+    <state x="335" y="289" key="Github.CreateGistDialog" timestamp="1604598403593">
       <screen x="0" y="0" width="1024" height="781" />
     </state>
-    <state width="980" height="102" key="GridCell.Tab.0.bottom/0.0.1024.781@0.0.1024.781" timestamp="1604533659567" />
-    <state width="980" height="102" key="GridCell.Tab.0.center" timestamp="1604533659567">
+    <state x="335" y="289" key="Github.CreateGistDialog/0.0.1024.781@0.0.1024.781" timestamp="1604598403593" />
+    <state width="980" height="258" key="GridCell.Tab.0.bottom" timestamp="1605218793658">
       <screen x="0" y="0" width="1024" height="781" />
     </state>
-    <state width="980" height="102" key="GridCell.Tab.0.center/0.0.1024.781@0.0.1024.781" timestamp="1604533659567" />
-    <state width="980" height="102" key="GridCell.Tab.0.left" timestamp="1604533659567">
+    <state width="980" height="258" key="GridCell.Tab.0.bottom/0.0.1024.781@0.0.1024.781" timestamp="1605218793658" />
+    <state width="980" height="258" key="GridCell.Tab.0.center" timestamp="1605218793658">
       <screen x="0" y="0" width="1024" height="781" />
     </state>
-    <state width="980" height="102" key="GridCell.Tab.0.left/0.0.1024.781@0.0.1024.781" timestamp="1604533659567" />
-    <state width="980" height="102" key="GridCell.Tab.0.right" timestamp="1604533659567">
+    <state width="980" height="258" key="GridCell.Tab.0.center/0.0.1024.781@0.0.1024.781" timestamp="1605218793658" />
+    <state width="980" height="258" key="GridCell.Tab.0.left" timestamp="1605218793658">
       <screen x="0" y="0" width="1024" height="781" />
     </state>
-    <state width="980" height="102" key="GridCell.Tab.0.right/0.0.1024.781@0.0.1024.781" timestamp="1604533659567" />
+    <state width="980" height="258" key="GridCell.Tab.0.left/0.0.1024.781@0.0.1024.781" timestamp="1605218793658" />
+    <state width="980" height="258" key="GridCell.Tab.0.right" timestamp="1605218793658">
+      <screen x="0" y="0" width="1024" height="781" />
+    </state>
+    <state width="980" height="258" key="GridCell.Tab.0.right/0.0.1024.781@0.0.1024.781" timestamp="1605218793658" />
     <state width="980" height="300" key="GridCell.Tab.1.bottom" timestamp="1604533659551">
       <screen x="0" y="0" width="1024" height="781" />
     </state>
@@ -113,9 +158,17 @@
       <screen x="0" y="0" width="1024" height="781" />
     </state>
     <state width="980" height="300" key="GridCell.Tab.1.right/0.0.1024.781@0.0.1024.781" timestamp="1604533659551" />
-    <state x="209" y="214" key="com.intellij.ide.util.TipDialog" timestamp="1604590822249">
+    <state x="210" y="246" key="Vcs.Push.Dialog.v2" timestamp="1604598338633">
       <screen x="0" y="0" width="1024" height="781" />
     </state>
-    <state x="209" y="214" key="com.intellij.ide.util.TipDialog/0.0.1024.781@0.0.1024.781" timestamp="1604590822249" />
+    <state x="210" y="246" key="Vcs.Push.Dialog.v2/0.0.1024.781@0.0.1024.781" timestamp="1604598338633" />
+    <state x="209" y="214" key="com.intellij.ide.util.TipDialog" timestamp="1605296595645">
+      <screen x="0" y="0" width="1024" height="781" />
+    </state>
+    <state x="209" y="214" key="com.intellij.ide.util.TipDialog/0.0.1024.781@0.0.1024.781" timestamp="1605296595645" />
+    <state x="276" y="524" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604598369301">
+      <screen x="0" y="0" width="1024" height="781" />
+    </state>
+    <state x="276" y="524" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1024.781@0.0.1024.781" timestamp="1604598369301" />
   </component>
 </project>
